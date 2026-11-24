@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#233f59">
+  <meta name="description" content="Рабочий кабинет кондитера для расчёта себестоимости, цены и заработка.">
+  <title>Обзор · Моя кондитерская</title>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./model.js" defer></script>
+  <script src="./ui.js" defer></script>
+  <script src="./views.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержанию</a>
+  <aside class="rail" id="rail" aria-label="Боковое меню">
+    <a class="brand" href="#overview"><img src="./assets/mark.svg" alt=""><span>Моя<br>кондитерская</span></a>
+    <nav id="navigation" aria-label="Разделы кабинета"></nav>
+    <div class="rail-bottom" id="local-status"></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <button type="button" class="icon-button mobile-nav" data-action="menu" aria-label="Открыть меню" aria-controls="rail" aria-expanded="false"></button>
+      <div class="crumb"><span id="crumb-icon"></span><span class="crumb-parent">Рабочий кабинет</span><span class="slash">/</span><strong id="crumb"></strong></div>
+      <div class="date" id="date"></div>
+    </header>
+    <main id="main" tabindex="-1"></main>
+  </div>
+  <button id="scrim" aria-label="Закрыть меню" data-action="menu" hidden></button>
+  <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
+  <div id="toast" role="status"></div>
+  <noscript>Для работы кабинета включи JavaScript в настройках браузера.</noscript>
+</body>
+</html>

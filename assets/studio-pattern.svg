@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 192" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <g id="fan" fill="none" stroke="currentColor" stroke-width="1.6">
+      <path d="M0 7A73 73 0 0 1 73 80M0 16A64 64 0 0 1 64 80M0 25A55 55 0 0 1 55 80M0 34A46 46 0 0 1 46 80M0 43A37 37 0 0 1 37 80M0 52A28 28 0 0 1 28 80M0 61A19 19 0 0 1 19 80M0 70A10 10 0 0 1 10 80"/>
+    </g>
+    <g id="arch" fill="none" stroke="currentColor" stroke-width="1.6">
+      <path d="M4 80V40a36 36 0 0 1 72 0v40M12 80V40a28 28 0 0 1 56 0v40M20 80V40a20 20 0 0 1 40 0v40M28 80V40a12 12 0 0 1 24 0v40M36 80V40a4 4 0 0 1 8 0v40"/>
+    </g>
+    <g id="petals" fill="currentColor">
+      <path d="M40 40A40 40 0 0 1 0 0a40 40 0 0 1 40 40Zm0 0A40 40 0 0 1 80 0a40 40 0 0 1-40 40Zm0 0a40 40 0 0 1 40 40 40 40 0 0 1-40-40Zm0 0a40 40 0 0 1-40 40 40 40 0 0 1 40-40Z"/>
+    </g>
+  </defs>
+  <path fill="#233f59" d="M0 0h360v192H0z"/>
+  <g transform="translate(0,-28)">
+    <use href="#fan" color="#829eae"/>
+    <path fill="#b6c9d0" d="M80 0h80v80H80z"/>
+    <path fill="#42647b" d="M80 80a80 80 0 0 1 80-80v80Z"/>
+    <path fill="#eadbc0" d="M160 0h80v80h-80z"/>
+    <path fill="#c78165" d="M160 0a80 80 0 0 1 80 80h-80Z"/>
+    <path fill="#304d64" d="M240 0h80v80h-80z"/>
+    <use href="#arch" transform="translate(240)" color="#d8c29a"/>
+    <path fill="#adc1c8" d="M320 0h80v80h-80z"/>
+    <use href="#petals" transform="translate(320)" color="#53778a"/>
+
+    <path fill="#34546c" d="M0 80h80v80H0z"/>
+    <path fill="#64889b" d="M0 160a80 80 0 0 1 80-80v80Z"/>
+    <path fill="#e6d6b9" d="M80 80h80v80H80z"/>
+    <use href="#petals" transform="translate(80 80)" color="#466b80"/>
+    <path fill="#95b0bb" d="M160 80h80v80h-80z"/>
+    <use href="#fan" transform="translate(240 160) rotate(180)" color="#36586d"/>
+    <path fill="#ece1cd" d="M240 80h80v80h-80z"/>
+    <path fill="#c78165" d="M240 80h80a40 40 0 0 1-80 0Z"/>
+    <path fill="#344f65" d="M240 160a40 40 0 0 1 80 0Z"/>
+    <path fill="#587b8d" d="M320 80h80v80h-80z"/>
+    <use href="#fan" transform="translate(320 80)" color="#c2d0d0"/>
+
+    <path fill="#304d64" d="M0 160h80v80H0z"/>
+    <use href="#arch" transform="translate(0 160)" color="#7998a9"/>
+    <path fill="#b6c8cb" d="M80 160h80v80H80z"/>
+    <path fill="#36576d" d="M80 160h80v80a80 80 0 0 1-80-80Z"/>
+    <path fill="#42647b" d="M160 160h80v80h-80z"/>
+    <path fill="#d6b991" d="M160 240a80 80 0 0 1 80-80v80Z"/>
+    <path fill="#bd7c63" d="M240 160h80v80h-80z"/>
+    <use href="#fan" transform="translate(320 160) rotate(90)" color="#ebd5b8"/>
+    <path fill="#adc1c8" d="M320 160h80v80h-80z"/>
+    <path fill="#42647b" d="M320 160a80 80 0 0 1 80 80h-80Z"/>
+  </g>
+  <path fill="none" stroke="#233f59" stroke-width=".8" opacity=".55" d="M80 0v192M160 0v192M240 0v192M320 0v192M0 52h360M0 132h360"/>
+</svg>
